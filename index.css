@@ -65,13 +65,17 @@ h1
 }
 .person-foto
 {
-    border: solid 3px #fff;
+    border: solid 3px rgba(0, 0, 0, 0);
     width: 139px;
     height: 139px;
     padding: 4px;
     border-radius: 100px;
     text-align: center;
     cursor: pointer;
+}
+.person-foto:hover
+{
+	border-color: #fff;
 }
 .person-name
 {
@@ -209,10 +213,4 @@ input[id='second']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.tw
 input[id='third']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.three) .person-story
 {
     display: none;
-}
-input[id='first']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.one) .person-foto,
-input[id='second']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.two) .person-foto,
-input[id='third']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.three) .person-foto
-{
-    border-color: rgba(0, 0, 0, 0);
 }
