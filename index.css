@@ -10,13 +10,16 @@ body
     font-family: Arial;
 }
 
-header, main, footer
+header,
+main,
+footer
 {
     border: solid 2px;
     background-repeat: no-repeat;
 }
 
-main, header
+main,
+header
 {
     border-bottom: 0;
 }
@@ -35,7 +38,8 @@ header h1
     padding: 350px 100px 50px;
 }
 
-.header-bottom, footer
+.header-bottom,
+footer
 {
     border-top: solid 2px;
     display: flex;
@@ -96,12 +100,12 @@ header h1
 #georgy:checked ~ main,
 #georgy:checked ~ footer
 {
-    background-color: #72c4f6;;
+    background-color: #72c4f6;
 }
 
 #max:checked ~ main > .people > .max > div,
-#alex:checked ~ main > .people  > .alex > div,
-#georgy:checked ~ main > .people  > .georgy > div
+#alex:checked ~ main > .people > .alex > div,
+#georgy:checked ~ main > .people > .georgy > div
 {
     display: block;
 }
