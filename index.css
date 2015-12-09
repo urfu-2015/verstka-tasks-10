@@ -1,1 +1,275 @@
+.page
+{
+    background-color: #72c4f6;
+    background-image: url(./img/border.png);
+    border: 1px solid #000;
+    font-family: Arial;
+    height: 4634px;
+    margin: auto;
+    width: 990px;
+}
 
+header
+{
+    background-image: url(./img/head.png);
+    background-repeat: no-repeat;
+    height: 968px;
+    position: relative;
+    width: 990px;
+}
+
+.h1
+{
+    font-size: 3em;
+    margin: 265px auto auto;
+    text-align: center;
+    width: 850px;
+}
+
+header .img
+{
+    background-image: url(./img/ya-label.png);
+    height: 110px;
+    margin: auto;
+    width: 138px;
+}
+
+header .play
+{
+    position: absolute;
+    right: 0;
+    top: 653px;
+    width: 335px;
+}
+
+header > p
+{
+    margin-left: 113px;
+    margin-top: 165px;
+    text-align: start;
+    width: 451px;
+    line-height: 1.5;
+}
+
+.main
+{
+    line-height: 1.5;
+}
+
+label:hover
+{
+    cursor: pointer;
+}
+
+label:before
+{
+    background-image: url(./img/persons.png);
+    content: '';
+    height: 155px;
+    left: 78px;
+    position: absolute;
+    top: 0;
+    width: 139px;
+}
+
+.persons
+{
+    display: flex;
+    height: 350px;
+    margin: 75px auto auto;
+    position: relative;
+    text-align: center;
+    width: 762px;
+}
+
+.persons p
+{
+    text-align: center;
+}
+
+label[class='person2']:before
+{
+    background-position: -226px;
+    left: 304px;
+    width: 155px;
+}
+
+label[class='person3']:before
+{
+    background-position: -468px;
+    left: 546px;
+}
+
+.persons div
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 155px;
+    width: 253px;
+}
+
+.name1 span,
+.name1 p
+{
+    margin-right: -40px;
+}
+
+.name3 span,
+.name3 p
+{
+    margin-left: -40px;
+}
+
+.main1
+{
+    background-image: url(./img/main1.png);
+    height: 854px;
+    width: 990px;
+}
+
+.main1 p
+{
+    margin: 0;
+    padding-left: 105px;
+    padding-top: 87px;
+    text-align: center;
+    width: 294px;
+}
+
+.main2
+{
+    background-image: url(./img/main2.png);
+    height: 763px;
+    margin-left: 64px;
+    width: 908px;
+}
+
+.main2 p
+{
+    margin-left: 518px;
+    text-align: center;
+    width: 294px;
+}
+
+.main3
+{
+    background-image: url(./img/main3.png);
+    height: 857px;
+    margin-left: 108px;
+    margin-top: -37px;
+    width: 882px;
+}
+
+.main3 p
+{
+    padding-top: 68px;
+    text-align: center;
+    width: 294px;
+}
+
+footer
+{
+    background-image: url(./img/footer.png);
+    background-repeat: no-repeat;
+    height: 373px;
+    line-height: 1.5;
+    width: 990px;
+}
+
+footer p
+{
+    height: 188px;
+    margin-bottom: 0;
+    margin-left: 115px;
+    margin-top: 0;
+    width: 451px;
+}
+
+footer div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 115px;
+    width: 450px;
+}
+
+address
+{
+    display: inline;
+}
+
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.social
+{
+    height: 24px;
+    margin-left: 115px;
+    width: 188px;
+}
+
+.social a
+{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAAYBAMAAACy6opgAAAAJ1BMVEUAAAC4uLj///+9vb37+/vz8/Pj4+P29vbMzMzs7Ozb29vDw8PT09PZVHeYAAAAAXRSTlMAQObYZgAAAb1JREFUSMfV1T9Lw0AYBnD9Bl6vTVvapU+b2BaXWAfBqUHBFpcG6qAu/SOoW+si4qIiVJzMJNilIk4uFT+Bi4sfyiZn7i7iJRTawRcCeUL4Ed67y7tApFqYVFRelPLSnw94opWNefCi6Dz5iuCzLyez5pPo+Ty1UQrlM+Op+VXkfV6DxCeazWZH8C6c6uuDkZKPIedeaj6JkmhODEBhzPnjyd07sHw9JZ/YbPh8HFUi8VsW7nl29glpA2hxXjMjeeq9IviezLfiaPD8hCPiuM3jfGwnik/Z+qXgs8+ov8p8Qvr6NaBmAYbE4+wXDyDAXwFFwScBlCR+2JZ6fwivyjKPxxA+nid9QCdvOYk3BM+SaI5XxQCPTghfpW424z6vOagNAzxOOZ9mfJXzfGtF8qqlzcLgOePArVaQf1AsLWuO7TVHyRNbF7zl6gUzwF+QEH6FLe2Hmrd0kW9Y62W+TsJ4nW3Mvorf7aLMMztUI5k3zFAeI/dYaVDxgNj3dNAFsE0kPj0m4XyZfZSa3yM83wI4NwXPS83jwKSfCPDqcbL+dTfF/97jUbAQ5Gc3rdL4qYbEz3PW0or570b5hP8GOQe0Nk2XXHcAAAAASUVORK5CYII=);
+    height: 24px;
+    width: 24px;
+}
+
+.vk
+{
+    background-position: -32px;
+}
+
+.twitter
+{
+    background-position: -64px;
+}
+
+.youtube
+{
+    background-position: -97px;
+}
+
+.habr
+{
+    background-position: -130px;
+}
+
+.instagram
+{
+    background-position: -164px;
+}
+
+.last
+{
+    margin-top: 70px;
+}
+
+input.person1:checked ~ .page,
+input.person1:checked ~ .page .name1 .holiday-type
+{
+    background-color: #ffe05d;
+    display: block;
+}
+
+input.person2:checked ~ .page,
+input.person2:checked ~ .page .name2 .holiday-type
+{
+    background-color: #ff8283;
+    display: block;
+}
+
+input.person3:checked ~ .page .name3 .holiday-type
+{
+    display: block;
+}
+
+input,
+.holiday-type
+{
+    display: none;
+}
