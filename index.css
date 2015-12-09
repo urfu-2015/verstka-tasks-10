@@ -1,1 +1,247 @@
+main{
+    text-align: center;
+    background: url(img/border.png) center no-repeat #72c4f6;
+    position: absolute;
+    left: 418px;
+    top: 18px;
+    width: 993px;
+    height: 4634px;
+    font-family: sans-serif;
+    line-height: 1.5;
+
+}
+
+.ya-label{
+    position: relative;
+}
+.headbanner{
+    position: static;
+    margin-top: -128px;
+}
+.maintext{
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    margin-top: -464px;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.playbox{
+    font-family: sans-serif;
+    text-align: left;
+    font-weight: bold;
+
+}
+div > .leftset{
+    margin-left: 113px;
+    margin-top: 165px;
+    text-align: start;
+    width: 451px;
+    line-height: 1.5;
+    z-index: auto;
+}
+div >  .nearplaybox{
+    margin-left: 735px;
+    margin-top: -136px;
+}
+.playbox  img{
+    position: absolute;
+    right: 73px;
+    top: 653px;
+    width: 200px;
+    font-weight: 200;!important;
+}
+.personinf{
+    position: relative;
+    margin: 226px;
+}
+.personinf > img{
+    width: 200px;
+}
+.infof1{
+    position: relative;
+    margin: -223px;
+    left: -205px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.infof1 > span{
+    font-weight: 800;
+}
+.main1
+{
+    background-image: url(./img/main1.png);
+    height: 854px;
+    width: 990px;
+    margin: 278px 20px;
+}
+
+.main1 p
+{
+    margin: 0;
+    padding-left: 105px;
+    padding-top: 87px;
+    text-align: center;
+    width: 294px;
+}
+
+.main2
+{
+    background-image: url(./img/main2.png);
+    height: 763px;
+    margin-left: 64px;
+    width: 908px;
+    margin-top: -234px;
+}
+
+.main2 p
+{
+    margin-left: 518px;
+    text-align: center;
+    width: 294px;
+}
+
+.main3
+{
+    background-image: url(./img/main3.png);
+    height: 857px;
+    margin-left: 108px;
+    margin-top: -54px;
+    width: 882px;
+}
+
+.main3 p
+{
+    padding-top: 68px;
+    text-align: center;
+    width: 294px;
+}
+.personinf2{
+    margin-top: 20px;
+}
+.third{
+    margin-right: -475px;
+    font-weight: 800;
+    margin-top: -24px;
+}
+.second{
+    font-weight: 800;
+    margin-top: -24px;
+}
+.first{
+    margin-left: -475px;
+    font-weight: 800;
+}
+footer
+{
+    background-image: url(./img/footer.png);
+    background-repeat: no-repeat;
+    height: 373px;
+    line-height: 1.5;
+    width: 990px;
+}
+
+footer p
+{
+    height: 188px;
+    margin-bottom: 0;
+    margin-left: 115px;
+    margin-top: 168px;
+    width: 451px;
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+footer div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 115px;
+    width: 450px;
+}
+
+address
+{
+    display: inline;
+}
+
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.social
+{
+    height: 24px;
+    margin-left: 115px;
+    width: 188px;
+}
+
+.social a
+{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAAYBAMAAACy6opgAAAAJ1BMVEUAAAC4uLj///+9vb37+/vz8/Pj4+P29vbMzMzs7Ozb29vDw8PT09PZVHeYAAAAAXRSTlMAQObYZgAAAb1JREFUSMfV1T9Lw0AYBnD9Bl6vTVvapU+b2BaXWAfBqUHBFpcG6qAu/SOoW+si4qIiVJzMJNilIk4uFT+Bi4sfyiZn7i7iJRTawRcCeUL4Ed67y7tApFqYVFRelPLSnw94opWNefCi6Dz5iuCzLyez5pPo+Ty1UQrlM+Op+VXkfV6DxCeazWZH8C6c6uuDkZKPIedeaj6JkmhODEBhzPnjyd07sHw9JZ/YbPh8HFUi8VsW7nl29glpA2hxXjMjeeq9IviezLfiaPD8hCPiuM3jfGwnik/Z+qXgs8+ov8p8Qvr6NaBmAYbE4+wXDyDAXwFFwScBlCR+2JZ6fwivyjKPxxA+nid9QCdvOYk3BM+SaI5XxQCPTghfpW424z6vOagNAzxOOZ9mfJXzfGtF8qqlzcLgOePArVaQf1AsLWuO7TVHyRNbF7zl6gUzwF+QEH6FLe2Hmrd0kW9Y62W+TsJ4nW3Mvorf7aLMMztUI5k3zFAeI/dYaVDxgNj3dNAFsE0kPj0m4XyZfZSa3yM83wI4NwXPS83jwKSfCPDqcbL+dTfF/97jUbAQ5Gc3rdL4qYbEz3PW0or570b5hP8GOQe0Nk2XXHcAAAAASUVORK5CYII=);
+    height: 24px;
+    width: 24px;
+}
+
+.facebook
+{
+    background-position: -1px;
+}
+.facebook:hover
+{
+    background-position: -1px 100px;
+}
+
+.vk
+{
+    background-position: -32px;
+}
+.vk:hover
+{
+    background-position: -32px 100px;
+}
+
+.twitter
+{
+    background-position: -64px;
+}
+.twitter:hover{
+    background-position: -64px 100px;
+
+}
+.youtube
+{
+    background-position: -97px;
+}
+.youtube:hover
+{
+    background-position: -97px 100px;
+}
+
+.habr
+{
+    background-position: -130px;
+}
+.habr:hover
+{
+    background-position: -130px 100px;
+}
+.instagram
+{
+    background-position: -164px;
+}
+.instagram:hover
+{
+    background-position: -164px 100px;
+}
+
+.last
+{
+    margin-top: 70px;
+}
 
