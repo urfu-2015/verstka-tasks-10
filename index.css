@@ -16,7 +16,7 @@
 
 #people1:checked + #people2 + #people3 + div.generalModule
 {
-    background: #ffe05d;;
+    background: #ffe05d;
 }
 
 #people2:checked + #people3 + div.generalModule
@@ -88,9 +88,9 @@
 
 .bottonImg
 {
-   display: inline-block;
-   vertical-align: top;
-   padding-left: 126px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 126px;
 }
 
 /*
