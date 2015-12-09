@@ -1,1 +1,459 @@
+.generalModule
+{
+    width: 993px;
+    height: 4634px;
+    background: #72c4f6;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #fff;
+    border-width: 5px;
+}
+
+.container input
+{
+    visibility: hidden;
+}
+
+#people1:checked + #people2 + #people3 + div.generalModule
+{
+    background: #ffe05d;;
+}
+
+#people2:checked + #people3 + div.generalModule
+{
+    background: #ff8283;
+}
+
+#people3:checked + div.generalModule
+{
+    background: #72c4f6;
+}
+
+#people1:checked + #people2 + #people3 + div.generalModule .textIcon1
+{
+    display: block;
+}
+
+#people2:checked + #people3 + div.generalModule .textIcon2
+{
+    display: block;
+}
+
+#people3:checked + div.generalModule .textIcon3
+{
+    display: block;
+}
+
+.module1
+{
+    margin-top: 90px;
+    position: relative;
+    border-top: solid #000;
+    border-bottom: solid #000;
+    border-width: 2px;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.module2
+{
+    width: 993px;
+}
+
+.module3
+{
+    margin-top: 2700px;
+    padding-bottom: 100px;
+    position: relative;
+    border-bottom: solid #000;
+    border-width: 2px;
+}
+
+.module4
+{
+    height: 405px;
+}
+
+.mainModuleSpriteFooter
+{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.modulesImgs
+{
+    margin-top: 200px;
+}
+
+.bottonImg
+{
+   display: inline-block;
+   vertical-align: top;
+   padding-left: 126px;
+}
+
+/*
+=======================
+IMG
+=======================
+*/
+
+.img1
+{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 993px;
+    height: 775px;
+}
+
+.img2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 138px;
+    height: 90px;
+}
+
+.img3
+{
+    width: 138px;
+    height: 80px;
+}
+
+.img4
+{
+    position: absolute;
+    margin-left: 110px;
+}
+
+.img5
+{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 80px;
+    z-index: 5;
+}
+
+.img6
+{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 595px;
+    z-index: 5;
+}
+
+.img7
+{
+    position: absolute;
+    margin-left: 816px;
+    margin-top: 545px;
+    z-index: 5;
+}
+
+.img8
+{
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 435px;
+    z-index: 4;
+}
+
+.img9
+{
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 325px;
+    z-index: 4;
+}
+
+.img10
+{
+    position: absolute;
+    margin-left: 0;
+    margin-top: 325px;
+    z-index: 4;
+}
+
+.img11
+{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 890px;
+    z-index: 4;
+}
+
+.mainModuleSprite
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.sprite-icon1
+{
+    background-image: url(spritesheet1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 138px;
+    height: 139px;
+    background-position: 2px 2px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: solid #fff;
+    border-width: 4px;
+    border-radius: 75px 75px 75px 75px;
+    padding: 5px;
+
+}
+
+.sprite-icon2
+{
+    background-image: url(spritesheet1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 138px;
+    height: 139px;
+    background-position: -147px -3px;
+}
+
+.sprite-icon3
+{
+    background-image: url(spritesheet1.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 138px;
+    height: 139px;
+    background-position: -3px -147px;
+}
+
+.logoAtom
+{
+    display: inline;
+    padding-left: 120px;
+}
+
+.sprite-1
+{
+    background-image: url(spritesheet2.png);
+    /*
+    background-image: url(data:image/png;base64,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);
+    */
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-position: -2px -2px;
+}
+
+.sprite-2
+{
+    background-image: url(spritesheet2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-position: -30px -2px;
+}
+
+.sprite-3
+{
+    background-image: url(spritesheet2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-position: -2px -30px;
+}
+
+.sprite-4
+{
+    background-image: url(spritesheet2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-position: -30px -30px;
+}
+
+.sprite-5
+{
+    background-image: url(spritesheet2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-position: -58px -2px;
+}
+
+.sprite-6
+{
+    background-image: url(spritesheet2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-position: -58px -30px;
+}
+
+/*
+=======================
+TXT
+=======================
+*/
+
+.text
+{
+    width: 420px;
+    height: 230px;
+    display: inline-block;
+}
+
+.text div:first-child
+{
+    padding-bottom: 60px;
+}
+
+.headerText
+{
+    position: relative;
+    margin-top: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 675px;
+    font-family: 'Arial';
+    font-size: 40px;
+    z-index: 2;
+}
+
+.textModulesImg1
+{
+    width: 260px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 125px;
+    text-align: center;
+}
+
+.textModulesImg1 div:first-child
+{
+    padding-bottom: 35px;
+}
+
+.textModulesImg2
+{
+    width: 260px;
+    position: absolute;
+    margin-top: 890px;
+    margin-left: 595px;
+    text-align: center;
+}
+
+.textModulesImg2 div:first-child
+{
+    padding-bottom: 35px;
+}
+
+.textModulesImg3
+{
+    width: 270px;
+    position: absolute;
+    margin-top: 1690px;
+    margin-left: 125px;
+    text-align: center;
+}
+
+.textModulesImg3 div:first-child
+{
+    padding-bottom: 35px;
+}
+
+.textName
+{
+    margin-left: 240px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textName div
+{
+    display: inline-block;
+}
+
+.textName div:nth-child(2)
+{
+    padding-left: 110px;
+    padding-right: 75px;
+}
+
+.textIcon1
+{
+    position: absolute;
+    padding-top: 40px;
+    display: none;
+    margin-left: 130px;
+    width: 280px;
+    text-align: center;
+}
+
+.textIcon2
+{
+    position: absolute;
+    padding-top: 40px;
+    display: none;
+    margin-left: 370px;
+    width: 260px;
+    text-align: center;
+}
+
+.textIcon3
+{
+    position: absolute;
+    padding-top: 40px;
+    display: none;
+    margin-left: 600px;
+    width: 265px;
+    text-align: center;
+}
+
+.textFooter
+{
+    display: inline-block;
+    width: 410px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.textFooter div:first-child
+{
+    padding-bottom: 35px;
+}
+
+.textfooterinfo div:nth-child(1)
+{
+    display: inline-block;
+}
+
+.textfooterinfo div:nth-child(2)
+{
+    display: inline;
+    padding-left: 10px;
+}
+
+.textfooterinfo div:nth-child(3)
+{
+    display: inline;
+    padding-left: 80px;
+}
+
+.textfooterinfo
+{
+    margin-top: 60px;
+    margin-left: 100px;
+}
 
