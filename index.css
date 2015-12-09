@@ -8,7 +8,8 @@ body
 {
     border: solid 2px #000;
 }
-.SmallWrapper{
+.SmallWrapper
+{
     background-image: url(./img/backtop.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -139,7 +140,8 @@ h1
 {
     background-position-y: 24px;
 }
-.social-icon:hover:after {
+.social-icon:hover:after
+{
     content: attr(data-title);
     position: absolute;
     left: 200px;
@@ -147,10 +149,10 @@ h1
     z-index: 1;
     font-size: 20px;
     background: rgb(184, 184, 184);
-    color: white;
+    color: #fff;
     padding: 2px;
-    padding-bottom: 0px;
-   }
+    padding-bottom: 0;
+}
 .vk
 {
     background-position-x: -24px;
@@ -190,27 +192,27 @@ footer div
 {
     display: none;
 }
-input[id="first"]:checked ~ .BigWrapper
+input[id='first']:checked ~ .BigWrapper
 {
     background-color: rgb(255, 130, 131);
 }
-input[id="second"]:checked ~ .BigWrapper
+input[id='second']:checked ~ .BigWrapper
 {
     background-color: rgb(114, 196, 246);
 }
-input[id="third"]:checked ~ .BigWrapper
+input[id='third']:checked ~ .BigWrapper
 {
     background-color: rgb(255, 224, 93);
 }
-input[id="first"]:checked ~ .BigWrapper > .coolStory > .persons .person:not(.one) .person-story,
-input[id="second"]:checked ~ .BigWrapper > .coolStory > .persons .person:not(.two) .person-story,
-input[id="third"]:checked ~ .BigWrapper > .coolStory > .persons .person:not(.three) .person-story
-{	
+input[id='first']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.one) .person-story,
+input[id='second']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.two) .person-story,
+input[id='third']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.three) .person-story
+{
     display: none;
 }
-input[id="first"]:checked ~ .BigWrapper > .coolStory > .persons .person:not(.one) .person-foto,
-input[id="second"]:checked ~ .BigWrapper > .coolStory > .persons .person:not(.two) .person-foto,
-input[id="third"]:checked ~ .BigWrapper > .coolStory > .persons .person:not(.three) .person-foto
+input[id='first']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.one) .person-foto,
+input[id='second']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.two) .person-foto,
+input[id='third']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.three) .person-foto
 {
     border-color: rgba(0, 0, 0, 0);
 }
