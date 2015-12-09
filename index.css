@@ -1,1 +1,146 @@
+.page
+{
+    width: 955px;
+    background-color: rgb(114, 196, 246);
+    margin: 0 auto;
+    height: auto;
+    font-family: Arial, sans-serif;
+}
+
+.header
+{
+    background: url("img/bg.svg") no-repeat -20px 70px;
+    border: 2px solid black;
+}
+
+.header__question
+{
+
+    width: 100%;
+    height: 182px;
+    margin-top: 370px;
+    border-bottom: 2px solid #000;
+}
+
+.header__question-text
+{
+    margin: 0 auto;
+    font-size: 44px;
+    text-align: center;
+    width: 700px;
+}
+
+.header__about
+{
+    display: flex;
+    flex-direction: row;
+    height: 392px;
+    border-bottom: 2px solid #000;
+}
+
+.header__about-text
+{
+    width: 445px;
+    padding: 60px 90px;
+    line-height: 24px;
+    text-align: justify;
+
+}
+
+.header__about-text-first
+{
+    margin-bottom: 27px
+}
+
+.header__about-video
+{
+    padding-top: 80px;
+    padding-left: 16px;
+}
+
+.list-user
+{
+    height: 248px;
+    display: flex;
+    flex-direction: row;
+    margin: 79px 200px;
+    justify-content: center;
+}
+
+.user__img
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.user__one-img
+{
+    height: 140px;
+    width: 140px;
+    float: left;
+    background: url(img/user.png) no-repeat 0 -140px;
+}
+
+.user__two
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.user__two-img
+{
+    height: 140px;
+    width: 140px;
+    float: left;
+    background: url(img/user.png) no-repeat;
+
+}
+
+.user__three
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.user__three-img
+{
+    height: 140px;
+    width: 140px;
+    float: left;
+    background: url(img/user.png) no-repeat 0 -280px;
+
+}
+
+.story
+{
+    background: transparent url("img/path.png") no-repeat scroll 95px 23px;
+    height: 2453px;
+    position: relative;
+}
+
+.story__one
+{
+    width: 287px;
+    position: absolute;
+    left: 89px;
+    top: 79px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.story__one--padding
+{
+    padding-top: 10px;
+}
+
+.story__two
+{
+    width: 293px;
+    position: absolute;
+    right: 107px;
+    top: 880px;
+    line-height: 24px;
+    text-align: center;
+}
 
