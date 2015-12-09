@@ -248,6 +248,7 @@ IMG
     width: 24px;
     height: 24px;
     background-position: -2px -2px;
+    cursor: pointer;
 }
 
 .sprite-2
@@ -258,6 +259,7 @@ IMG
     width: 24px;
     height: 24px;
     background-position: -30px -2px;
+    cursor: pointer;
 }
 
 .sprite-3
@@ -268,6 +270,7 @@ IMG
     width: 24px;
     height: 24px;
     background-position: -2px -30px;
+    cursor: pointer;
 }
 
 .sprite-4
@@ -278,6 +281,7 @@ IMG
     width: 24px;
     height: 24px;
     background-position: -30px -30px;
+    cursor: pointer;
 }
 
 .sprite-5
@@ -288,6 +292,7 @@ IMG
     width: 24px;
     height: 24px;
     background-position: -58px -2px;
+    cursor: pointer;
 }
 
 .sprite-6
@@ -298,6 +303,7 @@ IMG
     width: 24px;
     height: 24px;
     background-position: -58px -30px;
+    cursor: pointer;
 }
 
 /*
