@@ -9,23 +9,26 @@
 
 .header
 {
-    background: url("img/bg.svg") no-repeat -20px 70px;
+    position: relative;
     border: 2px solid black;
 }
-
+.header__bg{
+    position: absolute;
+    top: 70px;
+    left: -19px;
+}
 .header__question
 {
-
-    width: 100%;
-    height: 182px;
-    margin-top: 370px;
+    margin-top: 369px;
     border-bottom: 2px solid #000;
+    width: 100%;
+    height: 183px;
 }
 
 .header__question-text
 {
     margin: 0 auto;
-    font-size: 44px;
+    font-size: 42px;
     text-align: center;
     width: 700px;
 }
@@ -40,22 +43,22 @@
 
 .header__about-text
 {
-    width: 445px;
-    padding: 60px 90px;
+    width: 450px;
+    padding: 49px 82px 49px 93px;
     line-height: 24px;
     text-align: justify;
 
-}
-
-.header__about-text-first
-{
-    margin-bottom: 27px
 }
 
 .header__about-video
 {
     padding-top: 80px;
     padding-left: 16px;
+}
+
+.header__about-title
+{
+    margin: 10px -1px -1px;
 }
 
 .list-user
@@ -114,33 +117,167 @@
 
 .story
 {
-    background: transparent url("img/path.png") no-repeat scroll 95px 23px;
+    background: transparent url("img/path.png") no-repeat scroll 96px 24px;
     height: 2453px;
     position: relative;
 }
 
-.story__one
-{
-    width: 287px;
-    position: absolute;
-    left: 89px;
-    top: 79px;
-    line-height: 24px;
-    text-align: center;
-}
-
-.story__one--padding
+.story--padding
 {
     padding-top: 10px;
 }
 
-.story__two
+.story__one
 {
-    width: 293px;
+    width: 292px;
     position: absolute;
-    right: 107px;
-    top: 880px;
+    left: 90px;
+    top: 80px;
     line-height: 24px;
     text-align: center;
 }
 
+.story__one-img
+{
+    position: relative;
+    padding-top: 101px;
+}
+
+.story__one-phone,
+.story__one-pen,
+.story__one-ticket,
+.story__one-notebook,
+.story__one-watch,
+.story__one-photo
+{
+    position: absolute;
+}
+
+.story__one-phone
+{
+    top: 352px;
+    left: -17px;
+}
+
+.story__one-pen
+{
+    top: 353px;
+    left: 331px;
+}
+
+.story__one-ticket
+{
+    top: 459px;
+    right: 92px;
+}
+
+.story__one-watch
+{
+    top: 618px;
+    right: 339px;
+}
+
+.story__one-photo
+{
+    top: 573px;
+    right: -20px;
+}
+
+.story__one-notebook
+{
+    right: 163px;
+}
+
+.story__two
+{
+    width: 295px;
+    position: absolute;
+    right: 95px;
+    top: 883px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.story__two-img
+{
+    position: relative;
+    padding-top: 813px;
+}
+
+.story__two-iphone,
+.story__two-ipad,
+.story__two-cup,
+.story__two-mask,
+.story__two-palka
+{
+    position: absolute;
+}
+
+.story__two-iphone
+{
+    top: 1137px;
+    left: 47px;
+}
+
+.story__two-cup
+{
+    top: 1181px;
+    left: 330px;
+}
+
+.story__two-mask
+{
+    top: 1050px;
+    right: 0;
+}
+
+.story__two-palka
+{
+    right: 7px;
+}
+
+.story__two-ipad
+{
+    left: 205px
+}
+
+.story__three
+{
+    width: 297px;
+    position: absolute;
+    left: 80px;
+    bottom: 563px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.story__three-img
+{
+    position: relative;
+    padding-top: 1538px;
+}
+
+.story__three-bag,
+.story__three-newspaper,
+.story__three-magazine
+{
+    position: absolute;
+}
+
+.story__three-bag
+{
+    bottom: 404px;
+    right: 38px;
+}
+
+.story__three-newspaper
+{
+    bottom: 56px;
+    left: 93px;
+}
+
+.story__three-magazine
+{
+    bottom: -45px;
+    right: -20px;
+}
