@@ -32,6 +32,11 @@ header
     width: 990px;
 }
 
+.img path
+{
+    fill-opacity: .5;
+}
+
 .h1
 {
     font-size: 3em;
@@ -54,13 +59,11 @@ header
 {
     margin-left: 581px;
 }
+
 header .img
 {
-    background-image: url(./img/ya-label.png);
-    height: 91px;
-    margin: auto;
-    width: 138px;
-    margin-top: -2px;
+    margin-left: 408px;
+    margin-top: -5px;
 }
 
 .play-img
@@ -73,10 +76,8 @@ header .img
     justify-content: center;
 }
 
-.play-img img
+.play-img svg
 {
-    width: 27px;
-    height: 36px;
     align-self: center;
 }
 
@@ -310,20 +311,23 @@ a
 }
 
 input.person1:checked ~ .page,
-input.person1:checked ~ .page .name1 .holiday-type
+input.person1:checked ~ .page .name1 .holiday-type,
+input.person1:checked ~ .page .yellow
 {
     background-color: #ffe05d;
     display: block;
 }
 
 input.person2:checked ~ .page,
-input.person2:checked ~ .page .name2 .holiday-type
+input.person2:checked ~ .page .name2 .holiday-type,
+input.person2:checked ~ .page .red
 {
     background-color: #ff8283;
     display: block;
 }
 
-input.person3:checked ~ .page .name3 .holiday-type
+input.person3:checked ~ .page .name3 .holiday-type,
+input.person3:checked ~ .page .blue
 {
     display: block;
 }
@@ -346,15 +350,14 @@ footer .persons
     border-top: none;
 }
 
-.middel
+.middle
 {
     display: flex;
 }
 
-.middel img
+.middle svg
 {
-    height: 102px;
-    width: 102px;
+    display: none;
     align-self: center;
     margin-left: 100px;
 }
