@@ -1,12 +1,26 @@
+body
+{
+    background-color: #fff;
+    width: 950px;
+    margin: auto;
+    height: 4594px;
+    padding: 20px;
+}
 .page
 {
     background-color: #72c4f6;
-    background-image: url(./img/border.png);
-    border: 1px solid #000;
     font-family: Arial;
-    height: 4634px;
+    height: 4594px;
     margin: auto;
-    width: 990px;
+    width: 950px;
+    border: solid 3px #000;
+}
+
+.page header,
+.page .main,
+.page footer
+{
+    margin-left: -20px;
 }
 
 header
@@ -24,14 +38,46 @@ header
     margin: 265px auto auto;
     text-align: center;
     width: 850px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 196px;
+    border-bottom: 3px solid #000;
 }
 
+.bubbles
+{
+    width: 950px;
+    height: 60px;
+    margin-top: -20px;
+}
+.bubbles img
+{
+    margin-left: 581px;
+}
 header .img
 {
     background-image: url(./img/ya-label.png);
-    height: 110px;
+    height: 91px;
     margin: auto;
     width: 138px;
+    margin-top: -2px;
+}
+
+.play-img
+{
+    width: 138px;
+    height: 80px;
+    border: 3px solid #000;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.play-img img
+{
+    width: 27px;
+    height: 36px;
+    align-self: center;
 }
 
 header .play
@@ -45,7 +91,7 @@ header .play
 header > p
 {
     margin-left: 113px;
-    margin-top: 165px;
+    margin-top: 37px;
     text-align: start;
     width: 451px;
     line-height: 1.5;
@@ -65,21 +111,11 @@ label:before
 {
     background-image: url(./img/persons.png);
     content: '';
-    height: 155px;
-    left: 78px;
+    height: 138px;
+    left: 168px;
     position: absolute;
-    top: 0;
-    width: 139px;
-}
-
-.persons
-{
-    display: flex;
-    height: 350px;
-    margin: 75px auto auto;
-    position: relative;
-    text-align: center;
-    width: 762px;
+    top: 70px;
+    width: 138px;
 }
 
 .persons p
@@ -89,15 +125,14 @@ label:before
 
 label[class='person2']:before
 {
-    background-position: -226px;
-    left: 304px;
-    width: 155px;
+    background-position: center;
+    left: 394px;
 }
 
 label[class='person3']:before
 {
-    background-position: -468px;
-    left: 546px;
+    background-position: right;
+    left: 636px;
 }
 
 .persons div
@@ -105,8 +140,19 @@ label[class='person3']:before
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 155px;
+    align-items: center;
     width: 253px;
+}
+
+.persons .border
+{
+    width: 155px;
+    height: 155px;
+    border: 3px solid #fff;
+    border-radius: 120px;
+    margin-top: -15px;
+    margin-right: 25px;
+    opacity: 0;
 }
 
 .name1 span,
@@ -115,10 +161,20 @@ label[class='person3']:before
     margin-right: -40px;
 }
 
+.name1 .border
+{
+    margin-right: -30px;
+}
+
 .name3 span,
 .name3 p
 {
     margin-left: -40px;
+}
+
+.name3 .border
+{
+    margin-left: -21px;
 }
 
 .main1
@@ -126,6 +182,12 @@ label[class='person3']:before
     background-image: url(./img/main1.png);
     height: 854px;
     width: 990px;
+    z-index: 2;
+}
+
+.person
+{
+    z-index: 1000;
 }
 
 .main1 p
@@ -158,7 +220,7 @@ label[class='person3']:before
     height: 857px;
     margin-left: 108px;
     margin-top: -37px;
-    width: 882px;
+    width: 881px;
 }
 
 .main3 p
@@ -170,11 +232,8 @@ label[class='person3']:before
 
 footer
 {
-    background-image: url(./img/footer.png);
-    background-repeat: no-repeat;
-    height: 373px;
     line-height: 1.5;
-    width: 990px;
+    width: 950px;
 }
 
 footer p
@@ -182,11 +241,12 @@ footer p
     height: 188px;
     margin-bottom: 0;
     margin-left: 115px;
-    margin-top: 0;
+    margin-top: 80px;
     width: 451px;
 }
 
-footer div
+.last,
+.social
 {
     display: flex;
     justify-content: space-between;
@@ -208,7 +268,6 @@ a
 .social
 {
     height: 24px;
-    margin-left: 115px;
     width: 188px;
 }
 
@@ -246,7 +305,7 @@ a
 
 .last
 {
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 input.person1:checked ~ .page,
@@ -268,8 +327,46 @@ input.person3:checked ~ .page .name3 .holiday-type
     display: block;
 }
 
+.person:hover div
+{
+    opacity: 1;
+}
+
 input,
 .holiday-type
 {
     display: none;
+}
+
+footer .persons
+{
+    height: 250px;
+    border-bottom: 3px solid #000;
+    border-top: none;
+}
+
+.middel
+{
+    display: flex;
+}
+
+.middel img
+{
+    height: 102px;
+    width: 102px;
+    align-self: center;
+    margin-left: 100px;
+}
+
+.persons
+{
+    display: flex;
+    width: 950px;
+    justify-content: center;
+    height: 350px;
+    margin-left: 20px;
+    position: relative;
+    padding-top: 75px;
+    text-align: center;
+    border-top: 3px solid #000;
 }
