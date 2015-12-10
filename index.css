@@ -13,7 +13,7 @@ body
     height: 4594px;
     margin: auto;
     width: 950px;
-    border: solid 3px #000;
+    border: 2px solid #000;
 }
 
 .page header,
@@ -41,7 +41,7 @@ header
     padding-left: 50px;
     padding-right: 50px;
     height: 196px;
-    border-bottom: 3px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 .bubbles
@@ -148,7 +148,7 @@ label[class='person3']:before
 {
     width: 155px;
     height: 155px;
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     border-radius: 120px;
     margin-top: -15px;
     margin-right: 25px;
@@ -257,6 +257,7 @@ footer p
 address
 {
     display: inline;
+    font-style: normal;
 }
 
 a
@@ -305,7 +306,7 @@ a
 
 .last
 {
-    margin-top: 90px;
+    margin-top: 75px;
 }
 
 input.person1:checked ~ .page,
@@ -341,7 +342,7 @@ input,
 footer .persons
 {
     height: 250px;
-    border-bottom: 3px solid #000;
+    border-bottom: 2px solid #000;
     border-top: none;
 }
 
@@ -368,5 +369,5 @@ footer .persons
     position: relative;
     padding-top: 75px;
     text-align: center;
-    border-top: 3px solid #000;
+    border-top: 2px solid #000;
 }
