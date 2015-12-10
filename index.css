@@ -80,12 +80,12 @@ p
 }
 
 .top-atom
-{    
+{
     top: 67px;
 }
 
 .top-text
-{    
+{
     font-size: 44px;
     width: 740px;
     text-align: center;
@@ -102,14 +102,14 @@ p
 }
 
 .description-text
-{    
+{
     top: 60px;
     left: 114px;
     width: 450px;    
 }
 
 .player
-{    
+{
     top: 80px;
     left: 661px;
 }
@@ -129,7 +129,7 @@ p
 }
 
 .people
-{   
+{
     width: 800px;
     height: 200px;
     top: 78px;
@@ -198,7 +198,7 @@ p
 }
 
 .story-text-1
-{   
+{
     top: 498px;
     left: 112px;
     width: 280px;
@@ -206,7 +206,7 @@ p
 }
 
 .path-2
-{   
+{
     top: 720px;
     left: 192px;
 }
@@ -217,25 +217,25 @@ p
 }
 
 .notebook-ticket
-{    
+{
     top: 509px;
     left: 426px;
 }
 
 .watch
-{   
+{
     left: 505px;
     top: 1028px;
 }
 
 .photo
-{    
+{
     right: 0;
     top: 983px;
 }
 
 .story-text-2
-{    
+{
     top: 1301px;
     left: 579px;
     width: 300px;
@@ -249,7 +249,7 @@ p
 }
 
 .ipad
-{ 
+{
     top: 1321px;
     left: 221px;
 }
@@ -325,14 +325,14 @@ p
 }
 
 .bottom-text
-{  
+{
     top: 63px;
     left: 115px;
     width: 450px;
 }
 
 .bot-atom
-{ 
+{
     top: 83px;
     left: 675px;
 }
@@ -340,7 +340,7 @@ p
 .socials
 {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     top: 270px;
     left: 115px;
     width: 188px;
@@ -388,7 +388,7 @@ p
 }
 
 .footer
-{   
+{
     display: flex;
     justify-content: space-between;
     top: 365px;
@@ -397,7 +397,7 @@ p
 }
 
 .footer p
-{   
+{
     text-align: center;
 }
 
