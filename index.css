@@ -1,1 +1,386 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: #aaa;
+}
 
+input
+{
+    display: none;
+}
+
+.page-background
+{
+    padding: 10px;
+    background-color: #fff;
+}
+
+.wrapper
+{
+    background-color: #72c4f6;
+    font-family: Arial, sans-serif;
+    height: 4694px;
+    width: 993px;
+    border: 2px solid #000;
+}
+
+header
+{
+    position: relative;
+    height: 573px;
+    border-bottom: 2px solid #000;
+}
+
+.header-logo
+{
+    background: url(img/header-logo.png), no-repeat;
+    width: 140px;
+    height: 90px;
+    margin: -2px auto;
+}
+
+.header-img
+{
+    background: url(img/header.png), no-repeat;
+    position: absolute;
+    width: 993px;
+    height: 756px;
+    z-index: 1;
+}
+
+.header-text
+{
+    width: 760px;
+    position: absolute;
+    top: 400px;
+    left: 115px;
+    font-size: 44px;
+    text-align: center;
+    z-index: 2;
+}
+
+.pre-content
+{
+    position: relative;
+    height: 390px;
+    border-bottom: 2px solid #000;
+}
+
+.pre-content-text
+{
+    width: 440px;
+    position: absolute;
+    top: 80px;
+    left: 115px;
+    z-index: 2;
+    text-align: start;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.pre-content-text p
+{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.icon-video
+{
+    position: absolute;
+    top: 80px;
+    right: 170px;
+    text-align: start;
+    z-index: 1;
+}
+
+.video
+{
+    background: url(img/video.png), no-repeat;
+    width: 138px;
+    height: 80px;
+}
+
+.icon-video:hover
+{
+    cursor: pointer;
+}
+
+.persons
+{
+    position: relative;
+    display: flex;
+    margin-top: 70px;
+}
+
+.up-persons
+{
+    height: 400px;
+}
+
+.down-persons
+{
+    height: 275px;
+}
+
+.person
+{
+    position: absolute;
+}
+
+.photo
+{
+    background: url(img/upersons.png), no-repeat;
+    height: 155px;
+    width: 155px;
+}
+
+.photo:hover
+{
+    background: url(img/onperson.png), no-repeat;
+}
+
+.name
+{
+    text-align: center;
+    font-weight: 900;
+}
+
+.person-1
+{
+    left: 190px;
+}
+
+.person-2
+{
+    left: 425px;
+}
+
+.person-3
+{
+    left: 660px;
+}
+
+.person-1 .photo
+{
+    background-position: left;
+}
+
+.person-2 .photo
+{
+    background-position: center;
+}
+
+.person-3 .photo
+{
+    background-position: right;
+}
+
+.text-description
+{
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    left: -70px;
+    width: 300px;
+    display: none;
+}
+
+label
+{
+    position: absolute;
+    height: 100%;
+    width:  100%;
+}
+
+label:hover
+{
+    cursor: pointer;
+}
+
+#person-1:checked ~ .wrapper
+{
+    background-color: #ffe05d;
+}
+
+#person-2:checked ~ .wrapper
+{
+    background-color: #ff8283;
+}
+
+#person-3:checked ~ .wrapper
+{
+    background-color: #72c4f6;
+}
+
+#person-1:checked ~ .wrapper .person-1 .text-description,
+#person-2:checked ~ .wrapper .person-2 .text-description,
+#person-3:checked ~ .wrapper .person-3 .text-description
+{
+    display: block;
+}
+
+.content-1
+{
+    position: relative;
+    background-image: url(img/content-1.png);
+    width: 993px;
+    height: 850px;
+    margin-bottom: 45px;
+}
+
+.content-2
+{
+    position: relative;
+    background-image: url(img/content-2.png);
+    width: 993px;
+    height: 760px;
+    margin-left: -20px;
+}
+
+.content-3
+{
+    position: relative;
+    background-image: url(img/content-3.png);
+    width: 993px;
+    height: 860px;
+    margin-top: -30px;
+    margin-left: 12px;
+}
+
+.content-1 .text
+{
+    position: absolute;
+    top: 88px;
+    left: 105px;
+    width: 300px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.text p
+{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.content-2 .text
+{
+    position: absolute;
+    left: 600px;
+    width: 300px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.text p
+{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.content-3 .text
+{
+    position: absolute;
+    top: 66px;
+    left: 95px;
+    width: 300px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.text p
+{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+footer
+{
+    position: relative;
+    border-top: 2px solid #000;
+}
+
+.footer-logo
+{
+    background: url(img/footer-logo.png), no-repeat;
+    position: absolute;
+    top: 85px;
+    left: 655px;
+    width: 102px;
+    height: 102px;
+}
+
+.footer-text
+{
+    position: absolute;
+    top: 85px;
+    left: 95px;
+    width: 445px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.footer-text p
+{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.social
+{
+    position: absolute;
+    top: 275px;
+    left: 95px;
+}
+
+.footer-info
+{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 95px;
+    top: 385px;
+    width: 450px;
+}
+
+.footer-info a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.social a
+{
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAAYCAYAAAAVpXQNAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5RTMyRkY0MDlFOUUxMUU1ODA2RkRFOTlCQjlGNEVCQiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5RTMyRkY0MTlFOUUxMUU1ODA2RkRFOTlCQjlGNEVCQiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjlFMzJGRjNFOUU5RTExRTU4MDZGREU5OUJCOUY0RUJCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjlFMzJGRjNGOUU5RTExRTU4MDZGREU5OUJCOUY0RUJCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+kowBjwAABRJJREFUeNrsmldP60oUhYcAh947iN5Ek5AQTTQhHvjL8MADAgmBgAdAVCE6iN57u3xz7uQ6PkmwnYGTcL0kS4mN7WHPmrX23pOooaGhd+HCxee4/zgeTOeuYty4uLCIhH8PIzwugVx8iqioKBET85sqLy8v4v39P9NyTCCPxyNyc3NFSkqKiI2NlS+5u7sTGxsbbsR/GHl6enpEQsJv8bm/vxdjY2NeEjkiUFxcnGhtbRVJSUk+58/PzyOGQASG8ROI29tblykBEB0d7SWP9LGPz5xDiRwTqKqq6g/yOEFXV1fAa5BxfX1dPD4+2nomiggh3t7eAv5NTk6OqK+vF/Hx8fL7zc2NWFxclErK/bz3b2NwcNDn+/DwsK3r3wVHBMrKyvL5fnFxIR4eHmyv5OTk5KDXCgsLxdTUlLi6urL8zIqKCmmvc3Nz4vX11S/Bmpub5d8Y39XW1ib/h6WlJfHr1y/x9PTkys8HiCHxN1qYMa6OCMRKVXh+fhaTk5MhD5QJ42DyOJR8VldXi5mZGcvP4d7MzEzR3t4u5ufnxfX1tc/1kpISH/KYrTkvL08cHR1Zfl9tba1ULCXpkQwVd+PiweInJib0KpCZoTpweHgobQT09/d7/xllM1ZxeXkpCYTSdHZ2ioODA7G7uytVkmAY/dyMs7MzSTo7KCsrk0oJiXZ2dnwqlEgBls5CUGkJlr68vCxOT0/1WlhxcbEs54wrmO/l5eXyMxbAhOlQI0UgnmkH29vboqioSN5PoszkcqAQBCYxMTHgvU6Tad5VV1cnSktLxerqqlwMZkAsxqMrJwq1gFBEp5LG0o1jw9JbWlqk8isS4Qb+xMIWgcgvzIoAgWpqauRnpN8pgVAGJjo9Pd2bGzHgtbU1W89hJUE6RUDjOHl2MNhN2M2AnEwGSraysuKTu4VCHl0YGBiQcRgZGfFaLvHyNzbOMa/Kvohnb2/vHwm71kaiXbUwIjs7Wx5G7O/v20qgVUKfn5/vaAx23xUIWGhHR4ccPwsgVGLqBGNR5EEMgilyamqqzHfJc0meqWzN+aPHzssprZE0o8/zUM5xkH/oBJbZ19cnk1urIA+x4t1mEFSUQ6dNYKXd3d0iLS0tbAgUqID4ljKe0tgohSpfmZ6eDnkgTLxKorGypqYm7yqprKz0XvsMEJpSnOoNf7dqHSTawXpHToAaYmU6FtZnfSA7FTRzx4JRrZdAPT0UGfVRKYY/8nlEGALpJ+FVyMjIsHU/RMAOrZKHIOnsoDMxLDbaG5Ao3MDCUqDa8lc5cg7yGys1v4oW7j0JJ8CvqSCMJAyGhYUFLY1DlfSPj49rqUa/CrQe1OI6OTkRs7OzPrGid0b8lKWjPNzzJX0gXUBl2F4ANPOMBLLT2DPma1QQDQ0N0hL9Qa0yJ883PwcLphcUCR1semRU1GrLBhJx+GskAqqxQP2zsCEQpbu/rQ0swGopj7/j5yTdlOwFBQUBE3CChPIcHx+HNG4CDwmtql24gP1MVAgSKQszEwflgTz0t7Qk0d8JJgRlsNMHIpeBRFQ/gXIg7G1vb09sbW1p2X6ws80SbqA4Qe03NzflQlIEYtGRJ2Fbwcr8v06gr9hBJhAcVBr0MQgGKwlyQUp+sxQJ+Cw2umKH6jc2NnpzOEDX+UvK+EiC7r7OTwALKFg33gpxzJvT7k9a/0fQ8asJLQo0OjrqzS8icffZReibuyERKFJ++6IrSD8RuuLyjwADAH3dkSkNntJuAAAAAElFTkSuQmCC');
+    display: inline-block;
+    margin: 3px;
+    width: 24px;
+    height: 24px;
+}
+
+.vk
+{
+    background-position: -24px;
+}
+
+.twitter
+{
+    background-position: -48px;
+}
+
+.youtube
+{
+    background-position: -72px;
+}
+
+.habrahabr
+{
+    background-position: -96px;
+}
+
+.instagram
+{
+    background-position: -120px;
+}
