@@ -1,1 +1,216 @@
-
+body
+{
+    width: 933px;
+    margin: 0 auto;
+    padding: 18px;
+}
+.BigWrapper
+{
+    border: solid 2px #000;
+}
+.SmallWrapper
+{
+    background-image: url(./img/backtop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.top
+{
+    padding-top: 60px;
+}
+h1
+{
+    text-align: center;
+    font-size: 45px;
+    margin: -120px 95px 65px 95px;
+}
+.discr,
+.bot
+{
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
+    padding: 70px 95px;
+}
+.discr-text,
+.bot-text
+{
+    display: inline-block;
+    width: 450px;
+}
+.discr-video,
+.bot-logo
+{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 100px;
+}
+.discr-video svg
+{
+    cursor: pointer;
+}
+.persons
+{
+    padding: 70px 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.person
+{
+    width: 189px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.person-foto
+{
+    border: solid 3px rgba(0, 0, 0, 0);
+    width: 139px;
+    height: 139px;
+    padding: 4px;
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.person-foto:hover
+{
+    border-color: #fff;
+}
+.person-name
+{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.person-story
+{
+    width: 330px;
+    height: 50px;
+}
+.story
+{
+    background-image: url(./img/backstory.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -10px;
+    height: 2400px;
+}
+.story-wrapper
+{
+    overflow: hidden;
+    height: 775px;
+}
+.story-block
+{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 300px;
+    max-height: 200px;
+    top: 70px;
+    overflow: hidden;
+}
+.first,
+.third
+{
+    left: 80px;
+}
+.second
+{
+    left: 540px;
+}
+.bot
+{
+    border-bottom: none;
+}
+.social
+{
+    margin-top: 20px;
+    font-size: 0;
+    position: relative;
+}
+.social-icon
+{
+    display: inline-block;
+    margin-right: 9px;
+    width: 24px;
+    height: 24px;
+    background-image: url(./img/social.png);
+    cursor: pointer;
+}
+.social-icon:hover
+{
+    background-position-y: 24px;
+}
+.social-icon:hover:after
+{
+    content: attr(data-title);
+    position: absolute;
+    left: 200px;
+    top: -1px;
+    z-index: 1;
+    font-size: 20px;
+    background: rgb(184, 184, 184);
+    color: #fff;
+    padding: 2px;
+    padding-bottom: 0;
+}
+.vk
+{
+    background-position-x: -24px;
+}
+.tw
+{
+    background-position-x: -48px;
+}
+.hb
+{
+    background-position-x: -72px;
+}
+.yt
+{
+    background-position-x: -96px;
+}
+.ig
+{
+    background-position-x: 24px;
+}
+footer
+{
+    margin-left: 90px;
+    margin-bottom: 70px;
+}
+footer div
+{
+    display: inline-block;
+    cursor: pointer;
+}
+.callback
+{
+    margin-left: 20px;
+    margin-right: 70px;
+}
+.hidden
+{
+    display: none;
+}
+input[id='first']:checked ~ .BigWrapper
+{
+    background-color: rgb(255, 130, 131);
+}
+input[id='second']:checked ~ .BigWrapper
+{
+    background-color: rgb(114, 196, 246);
+}
+input[id='third']:checked ~ .BigWrapper
+{
+    background-color: rgb(255, 224, 93);
+}
+input[id='first']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.one) .person-story,
+input[id='second']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.two) .person-story,
+input[id='third']:checked ~ .BigWrapper > .coolStory > .persons .person:not(.three) .person-story
+{
+    display: none;
+}
