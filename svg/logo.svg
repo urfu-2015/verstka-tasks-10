@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<svg width="138px" height="92px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+    <polygon points="2,0 136,0 136,52 69,90 2,52"
+             fill="rgba(255,255,255,.5)" stroke-width="2" stroke="rgba(0,0,0,.5)"/>
+    <text x="32" y="44" font-family="Arial Narrow" font-size="27" fill="rgba(255,0,0,.8)">
+        Я
+    </text>
+    <text x="48" y="44" font-family="Arial Narrow" font-size="27" fill="rgba(0,0,0,.8)">
+        ндекс
+    </text>
+
+</svg>
