@@ -25,7 +25,9 @@ p
     padding: 19px;
 }
 
-header, main, footer
+header,
+main,
+footer
 {
     margin: 0;
     position: relative;
@@ -75,7 +77,6 @@ header, main, footer
 {
     margin-top: 200px;
     padding: 93px 14%;
-    /*font-weight: bolder;*/
     text-align: center;
 }
 
@@ -325,7 +326,9 @@ footer
     border-top: 0;
 }
 
-#name-1, #name-2, #name-3
+#name-1,
+#name-2,
+#name-3
 {
     display: none;
 }
@@ -334,12 +337,14 @@ footer
 {
     display: block;
     margin: 8px auto;
-    background: url("sprites.png") 0 -50px;
+    background: url('http://mokosha.esy.es/Images/verstka/sprites.png') 0 -50px;
     width: 138px;
     height: 138px;
 }
 
-#label-name-1, #label-name-2, #label-name-3
+#label-name-1,
+#label-name-2,
+#label-name-3
 {
     width: 154px;
     height: 154px;
@@ -366,7 +371,7 @@ footer
 {
     display: block;
     margin: 8px auto;
-    background: url("sprites.png") -150px -50px ;
+    background: url('http://mokosha.esy.es/Images/verstka/sprites.png') -150px -50px ;
     width: 138px;
     height: 139px;
 }
@@ -375,49 +380,49 @@ footer
 {
     display: block;
     margin: 8px auto;
-    background: url("sprites.png") -300px -50px ;
+    background: url('http://mokosha.esy.es/Images/verstka/sprites.png') -300px -50px ;
     width: 138px;
     height: 139px;
 }
 
 .facebook
 {
-    background: url("sprites.png") 0 0;
+    background: url('http://mokosha.esy.es/Images/verstka/sprites.png') 0 0;
     width: 24px;
     height: 24px;
 }
 
 .habra
 {
-    background: url("sprites.png") -200px 0;
+    background: url('http://mokosha.esy.es/Images/verstka/sprites.png') -200px 0;
     width: 24px;
     height: 24px;
 }
 
 .instagram
 {
-    background: url("sprites.png") -250px 0;
+    background: url('http://mokosha.esy.es/Images/verstka/sprites.png') -250px 0;
     width: 24px;
     height: 24px;
 }
 
 .youtube
 {
-    background: url("sprites.png") -150px 0;
+    background: url('http://mokosha.esy.es/Images/verstka/sprites.png') -150px 0;
     width: 24px;
     height: 24px;
 }
 
 .vkontakte
 {
-    background: url("sprites.png") -50px 0;
+    background: url('http://mokosha.esy.es/Images/verstka/sprites.png') -50px 0;
     width: 24px;
     height: 24px;
 }
 
 .twitter
 {
-    background: url("sprites.png") -100px 0;
+    background: url('http://mokosha.esy.es/Images/verstka/sprites.png') -100px 0;
     width: 24px;
     height: 24px;
 }
@@ -493,7 +498,9 @@ footer
     background-color: #72c3f5;
 }
 
-#for-first, #for-second, #for-third
+#for-first,
+#for-second,
+#for-third
 {
     position: relative;
     z-index: -1;
