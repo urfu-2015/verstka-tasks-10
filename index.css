@@ -1,4 +1,4 @@
-body 
+body
 {
     padding: 0;
     margin: 0;
@@ -330,7 +330,7 @@ footer
     display: none;
 }
 
-#photo-first
+.photo-first
 {
     display: block;
     margin: 8px auto;
@@ -362,7 +362,7 @@ footer
     border-color: rgba(114, 195, 245, 0);
 }
 
-#photo-second
+.photo-second
 {
     display: block;
     margin: 8px auto;
@@ -371,7 +371,7 @@ footer
     height: 139px;
 }
 
-#photo-third
+.photo-third
 {
     display: block;
     margin: 8px auto;
