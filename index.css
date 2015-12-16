@@ -5,8 +5,8 @@
     background: #72c4f6;
     margin-left: auto;
     margin-right: auto;
-    border: solid #fff;
-    border-width: 5px;
+    border: solid #000;
+    border-width: 2px;
 }
 
 .container input
@@ -149,7 +149,7 @@ IMG
 .img7
 {
     position: absolute;
-    margin-left: 816px;
+    margin-left: 822px;
     margin-top: 545px;
     z-index: 5;
 }
@@ -183,6 +183,14 @@ IMG
     position: absolute;
     margin-left: 65px;
     margin-top: 890px;
+    z-index: 4;
+}
+
+.img12
+{
+    margin-left: 590px;
+    margin-top: 480px;
+    position: absolute;
     z-index: 4;
 }
 
@@ -314,9 +322,13 @@ TXT
 
 .text
 {
-    width: 420px;
+    width: 435px;
     height: 230px;
     display: inline-block;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .text div:first-child
@@ -339,11 +351,15 @@ TXT
 
 .textModulesImg1
 {
-    width: 260px;
+    width: 272px;
     position: absolute;
     margin-top: 90px;
     margin-left: 125px;
     text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .textModulesImg1 div:first-child
@@ -353,11 +369,15 @@ TXT
 
 .textModulesImg2
 {
-    width: 260px;
+    width: 272px;
     position: absolute;
     margin-top: 890px;
     margin-left: 595px;
     text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .textModulesImg2 div:first-child
@@ -367,11 +387,15 @@ TXT
 
 .textModulesImg3
 {
-    width: 270px;
+    width: 288px;
     position: absolute;
     margin-top: 1690px;
     margin-left: 125px;
     text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .textModulesImg3 div:first-child
@@ -381,9 +405,10 @@ TXT
 
 .textName
 {
-    margin-left: 240px;
+    margin-left: 232px;
     font-weight: bold;
     font-size: 20px;
+    font-family: 'Arial';
 }
 
 .textName div
@@ -405,6 +430,10 @@ TXT
     margin-left: 130px;
     width: 280px;
     text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .textIcon2
@@ -415,6 +444,10 @@ TXT
     margin-left: 370px;
     width: 260px;
     text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .textIcon3
@@ -423,16 +456,25 @@ TXT
     padding-top: 40px;
     display: none;
     margin-left: 600px;
-    width: 265px;
+    width: 276px;
     text-align: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .textFooter
 {
     display: inline-block;
-    width: 410px;
+    width: 423px;
     padding-left: 100px;
     padding-top: 100px;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+
 }
 
 .textFooter div:first-child
@@ -459,7 +501,19 @@ TXT
 
 .textfooterinfo
 {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 100px;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+
 }
 
+.bottonImg div
+{
+    padding-top: 5px;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
