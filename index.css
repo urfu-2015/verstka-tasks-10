@@ -44,6 +44,33 @@
     display: block;
 }
 
+.img13
+{
+    position: absolute;
+    visibility: hidden;
+}
+
+#people1:checked + #people2 + #people3 + div.generalModule .img13
+{
+    visibility: visible;
+    margin-left: 188.5px;
+    margin-top: -155px;
+}
+
+#people2:checked + #people3 + div.generalModule .img13
+{
+    visibility: visible;
+    margin-left: 419.5px;
+    margin-top: -156px;
+}
+
+#people3:checked + div.generalModule .img13
+{
+    visibility: visible;
+    margin-left: 651.5px;
+    margin-top: -156px;
+}
+
 .module1
 {
     margin-top: 90px;
@@ -72,7 +99,7 @@
 
 .module4
 {
-    height: 405px;
+    height: 380px;
 }
 
 .mainModuleSpriteFooter
@@ -188,8 +215,15 @@ IMG
 
 .img12
 {
-    margin-left: 590px;
-    margin-top: 480px;
+    margin-top: 65px;
+    position: absolute;
+    z-index: 4;
+}
+
+.img14
+{
+    margin-top: 475px;
+    margin-left: 630px;
     position: absolute;
     z-index: 4;
 }
@@ -202,6 +236,22 @@ IMG
     margin-top: 80px;
 }
 
+.mainModuleSprite label:nth-child(2n)
+{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.mainModuleSprite label
+{
+    display: inline-block;
+    border-radius: 50%;
+    padding: 7px 8px 8px 8px;
+    width: 136px;
+    height: 136px;
+    overflow: hidden;
+}
+
 .sprite-icon1
 {
     background-image: url(spritesheet1.png);
@@ -209,14 +259,7 @@ IMG
     display: inline-block;
     width: 138px;
     height: 139px;
-    background-position: 2px 2px;
-    margin-left: 80px;
-    margin-right: 80px;
-    border: solid #fff;
-    border-width: 4px;
-    border-radius: 75px 75px 75px 75px;
-    padding: 5px;
-
+    background-position: -4px -4px;
 }
 
 .sprite-icon2
@@ -224,9 +267,9 @@ IMG
     background-image: url(spritesheet1.png);
     background-repeat: no-repeat;
     display: inline-block;
-    width: 138px;
+    width: 140px;
     height: 139px;
-    background-position: -147px -3px;
+    background-position: -147px -5px;
 }
 
 .sprite-icon3
@@ -234,7 +277,7 @@ IMG
     background-image: url(spritesheet1.png);
     background-repeat: no-repeat;
     display: inline-block;
-    width: 138px;
+    width: 139px;
     height: 139px;
     background-position: -3px -147px;
 }
@@ -322,13 +365,13 @@ TXT
 
 .text
 {
-    width: 435px;
+    width: 477px;
     height: 230px;
     display: inline-block;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .text div:first-child
@@ -351,15 +394,15 @@ TXT
 
 .textModulesImg1
 {
-    width: 272px;
+    width: 305px;
     position: absolute;
     margin-top: 90px;
     margin-left: 125px;
     text-align: center;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .textModulesImg1 div:first-child
@@ -369,15 +412,15 @@ TXT
 
 .textModulesImg2
 {
-    width: 272px;
+    width: 305px;
     position: absolute;
     margin-top: 890px;
     margin-left: 595px;
     text-align: center;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .textModulesImg2 div:first-child
@@ -387,15 +430,15 @@ TXT
 
 .textModulesImg3
 {
-    width: 288px;
+    width: 332px;
     position: absolute;
-    margin-top: 1690px;
-    margin-left: 125px;
+    margin-top: 1680px;
+    margin-left: 75px;
     text-align: center;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .textModulesImg3 div:first-child
@@ -419,7 +462,7 @@ TXT
 .textName div:nth-child(2)
 {
     padding-left: 110px;
-    padding-right: 75px;
+    padding-right: 67px;
 }
 
 .textIcon1
@@ -428,12 +471,12 @@ TXT
     padding-top: 40px;
     display: none;
     margin-left: 130px;
-    width: 280px;
+    width: 325px;
     text-align: center;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .textIcon2
@@ -446,8 +489,8 @@ TXT
     text-align: center;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .textIcon3
@@ -456,24 +499,24 @@ TXT
     padding-top: 40px;
     display: none;
     margin-left: 600px;
-    width: 276px;
+    width: 315px;
     text-align: center;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .textFooter
 {
     display: inline-block;
-    width: 423px;
+    width: 490px;
     padding-left: 100px;
-    padding-top: 100px;
+    padding-top: 60px;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
 
 }
 
@@ -501,11 +544,11 @@ TXT
 
 .textfooterinfo
 {
-    margin-top: 50px;
+    margin-top: 35px;
     margin-left: 100px;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 
@@ -514,6 +557,6 @@ TXT
     padding-top: 5px;
     font-family: 'Arial';
     font-weight: bold;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
