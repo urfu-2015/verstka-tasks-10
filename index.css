@@ -1,5 +1,6 @@
 body
 {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;;
     background-color: #fff;
     margin: 0;
 }
@@ -34,6 +35,7 @@ main
     height: 847px;
     top: 0;
     left: -20px;
+    z-index: 3;
 }
 
 .what-if
@@ -45,6 +47,7 @@ main
     top: 408px;
     left: 0;
     text-align: center;
+    z-index: 4;
 }
 
 .hor-line-1
@@ -60,12 +63,13 @@ main
 .intro-text
 {
     position: absolute;
-    font-size: 16px;
-    width: 448px;
+    font-size: 18px;
+    width: 430px;
     height: 240px;
-    top: 670px;
-    left: 40px;
+    top: 650px;
+    left: 90px;
     text-align: left;
+    z-index: 4;
 }
 
 .video
@@ -98,6 +102,46 @@ main
     left: 120px;
 }
 
+.people-sprites
+{
+    background: url('img/people-sprites.png') no-repeat;
+    width: 467px;
+    height: 180px;
+}
+
+.maksim-0
+{
+    position: absolute;
+    background-position: 0 0;
+    width: 159px;
+    height: 178px;
+    top: 1000px;
+    left: 120px;
+    z-index: 1;
+}
+
+.alexy-0
+{
+    position: absolute;
+    background-position: -152px 0;
+    width: 166px;
+    height: 179px;
+    top: 1000px;
+    left: 380px;
+    z-index: 1;
+}
+
+.george-0
+{
+    position: absolute;
+    background-position: -309px -10px;
+    width: 158px;
+    height: 170px;
+    top: 1005px;
+    left: 640px;
+    z-index: 1;
+}
+
 .hor-line-3
 {
     position: absolute;
@@ -106,6 +150,377 @@ main
     height: 847px;
     top: 1300px;
     left: 100px;
+}
+
+.text-1
+{
+    position: absolute;
+    width: 300px;
+    top: 1400px;
+    left: 140px;
+}
+
+.text-2
+{
+    position: absolute;
+    width: 300px;
+    top: 1480px;
+    left: 140px;
+}
+
+.notebook
+{
+    position: absolute;
+    background: url('img/notebook.png') no-repeat;
+    width: 294px;
+    height: 422px;
+    top: 1400px;
+    left: 540px;
+    z-index: 2;
+}
+
+.phone
+{
+    position: absolute;
+    background: url('img/phone.png') no-repeat;
+    width: 296px;
+    height: 350px;
+    top: 1630px;
+    left: -14px;
+    z-index: 2;
+}
+
+.pen
+{
+    position: absolute;
+    background: url('img/pen.png') no-repeat;
+    width: 296px;
+    height: 350px;
+    top: 1625px;
+    left: 350px;
+}
+
+.ticket
+{
+    position: absolute;
+    background: url('img/ticket.png') no-repeat;
+    width: 450px;
+    height: 175px;
+    top: 1750px;
+    left: 450px;
+    z-index: 1;
+}
+
+.watch
+{
+    position: absolute;
+    background: url('img/watch.png') no-repeat;
+    width: 120px;
+    height: 236px;
+    top: 1910px;
+    left: 530px;
+    z-index: 2;
+}
+
+.photo
+{
+    position: absolute;
+    background: url('img/photo.png') no-repeat;
+    width: 130px;
+    height: 281px;
+    top: 1865px;
+    left: 850px;
+    z-index: 2;
+}
+
+.ipad
+{
+    position: absolute;
+    background: url('img/ipad.png') no-repeat;
+    width: 294px;
+    height: 442px;
+    top: 2200px;
+    left: 200px;
+    z-index: 2;
+}
+
+.text-3
+{
+    position: absolute;
+    width: 250px;
+    top: 2200px;
+    left: 600px;
+}
+
+.text-4
+{
+    position: absolute;
+    width: 250px;
+    top: 2300px;
+    left: 600px;
+}
+
+.mask
+{
+    position: absolute;
+    background: url('img/mask.png') no-repeat;
+    width: 372px;
+    height: 205px;
+    top: 2400px;
+    left: 550px;
+    z-index: 2;
+}
+
+.palka
+{
+    position: absolute;
+    background: url('img/palka.png') no-repeat;
+    width: 216px;
+    height: 610px;
+    top: 2200px;
+    left: 700px;
+    z-index: 2;
+}
+
+.iphone
+{
+    position: absolute;
+    background: url('img/iphone.png') no-repeat;
+    width: 138px;
+    height: 268px;
+    top: 2500px;
+    left: 40px;
+    z-index: 2;
+}
+
+.cup
+{
+    position: absolute;
+    background: url('img/cup.png') no-repeat;
+    width: 216px;
+    height: 291px;
+    top: 2570px;
+    left: 330px;
+    z-index: 2;
+}
+
+.bag
+{
+    position: absolute;
+    background: url('img/bag.png') no-repeat;
+    width: 450px;
+    height: 384px;
+    top: 2950px;
+    left: 460px;
+    z-index: 2;
+}
+
+.text-5
+{
+    position: absolute;
+    width: 250px;
+    top: 3050px;
+    left: 100px;
+}
+
+.text-6
+{
+    position: absolute;
+    width: 250px;
+    top: 3150px;
+    left: 100px;
+}
+
+.newspaper
+{
+    position: absolute;
+    background: url('img/newspaper.png') no-repeat;
+    width: 294px;
+    height: 396px;
+    top: 3290px;
+    left: 100px;
+    z-index: 2;
+}
+
+.yoga
+{
+    position: absolute;
+    background: url('img/yoga.png') no-repeat;
+    width: 294px;
+    height: 399px;
+    top: 3400px;
+    left: 680px;
+    z-index: 2;
+}
+
+.path-2
+{
+    position: absolute;
+    background: url('img/path2.png') no-repeat;
+    width: 611px;
+    height: 575px;
+    top: 1600px;
+    left: 180px;
+    z-index: 1;
+}
+
+.path-3
+{
+    position: absolute;
+    background: url('img/path3.png') no-repeat;
+    width: 733px;
+    height: 580px;
+    top: 2360px;
+    left: 100px;
+    z-index: 1;
+}
+
+.path-4
+{
+    position: absolute;
+    background: url('img/path4.png') no-repeat;
+    width: 644px;
+    height: 588px;
+    top: 3200px;
+    left: 100px;
+    z-index: 1;
+}
+
+.maksim
+{
+    position: absolute;
+    background-position: 0 0;
+    width: 159px;
+    height: 178px;
+    top: 3850px;
+    left: 160px;
+    z-index: 1;
+}
+
+.alexy
+{
+    position: absolute;
+    background-position: -152px 0;
+    width: 166px;
+    height: 179px;
+    top: 3850px;
+    left: 400px;
+    z-index: 1;
+}
+
+.george
+{
+    position: absolute;
+    background-position: -309px -10px;
+    width: 158px;
+    height: 170px;
+    top: 3860px;
+    left: 650px;
+    z-index: 1;
+}
+
+.hor-line-4
+{
+    position: absolute;
+    background: url('img/hor-line.png') no-repeat;
+    width: 993px;
+    height: 847px;
+    top: 4100px;
+    left: 0;
+}
+
+.text-7
+{
+    position: absolute;
+    width: 400px;
+    top: 4150px;
+    left: 100px;
+}
+
+.atom
+{
+    position: absolute;
+    background: url('img/atom.png') no-repeat;
+    width: 102px;
+    height: 102px;
+    top: 4180px;
+    left: 600px;
+}
+
+.facebook, .vkontakte, .twitter, .youtube, .habra, .instagram
+{
+    background: url('data:image/png;base64,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') no-repeat;
+    top: 4330px;
+}
+
+.facebook
+{
+    position: absolute;
+    left: 100px;
+    background-position: 0 0;
+    width: 24px;
+    height: 24px;
+}
+
+.vkontakte
+{
+    position: absolute;
+    left: 130px;
+    background-position: -25px 0;
+    width: 24px;
+    height: 24px;
+}
+
+.twitter
+{
+    position: absolute;
+    left: 160px;
+    background-position: -51px 0;
+    width: 24px;
+    height: 24px;
+}
+
+.youtube
+{
+    position: absolute;
+    left: 190px;
+    background-position: -78px 0;
+    width: 24px;
+    height: 24px;
+}
+
+.habra
+{
+    position: absolute;
+    left: 220px;
+    background-position: -105px 0;
+    width: 24px;
+    height: 24px;
+}
+
+.instagram
+{
+    position: absolute;
+    left: 250px;
+    background-position: -131px 0;
+    width: 24px;
+    height: 24px;
+}
+
+.text-8
+{
+    position: absolute;
+    top: 4500px;
+    left: 100px;
+    width: 240px;
+}
+
+.text-9
+{
+    position: absolute;
+    top: 4500px;
+    left: 350px;
+    width: 240px;
 }
 
 /*.ya-logo-round*/
