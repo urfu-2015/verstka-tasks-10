@@ -1,0 +1,7 @@
+.person-block,
+.section-text,
+.video-icon-block,
+.logo-icon-block
+{
+    display: table-cell;
+}

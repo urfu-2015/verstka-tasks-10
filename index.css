@@ -75,6 +75,7 @@ section:nth-of-type(2)
     min-height: 392px;
     border-bottom: 2px solid #000;
     background: url(images/section2.png) no-repeat;
+    display: flex;
 }
 
 section:nth-of-type(2):after,
@@ -106,7 +107,6 @@ section:nth-of-type(8):after
 
 .section-text
 {
-    float: left;
     width: 70%;
     box-sizing: border-box;
     padding-left: 107px;
@@ -115,7 +115,6 @@ section:nth-of-type(8):after
 .video-icon-block,
 .logo-icon-block
 {
-    float: left;
     width: 30%;
     padding: 160px 0 0 80px;
     box-sizing: border-box;
@@ -146,11 +145,13 @@ section:nth-of-type(3)
 {
     text-align: center;
     padding: 0 80px;
+    display: flex;
+
 }
 
 .person-block
 {
-    display: table-cell;
+    justify-content: center;
     width: 33.33%;
 }
 
@@ -295,6 +296,7 @@ section:nth-of-type(7) .content-block
 section:nth-of-type(8)
 {
     min-height: 435px;
+    display: flex;
 }
 
 .logo-icon:before
@@ -354,14 +356,22 @@ a[title='instagram']
 .inf
 {
     margin: 100px 0 50px;
+    display: flex;
 }
 
 .help
 {
-    margin-right: 25px;
+    margin-right: 20px;
+    width: 10%;
+}
+
+.feedback
+{
+    width: 25%;
 }
 
 .yandex
 {
-    float: right;
+    width: 65%;
+    text-align: right;
 }
