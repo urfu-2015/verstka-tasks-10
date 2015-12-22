@@ -18,6 +18,7 @@ p
     font-family: Arial;
     font-size: 16px;
     line-height: 24px;
+    text-align: center;
 }
 
 #maks:checked ~ .page
@@ -44,17 +45,17 @@ p
 
 #maks:checked ~ .page .people-maks
 {
-    background-position: -525px 0;
+    background-position: -495px 0;
 }
 
 #alex:checked ~ .page .people-alex
 {
-    background-position: -705px 0;
+    background-position: -660px 0;
 }
 
 #georg:checked ~ .page .people-georg
 {
-    background-position: -880px 0;
+    background-position: -825px 0;
 }
 
 .page
@@ -67,10 +68,8 @@ p
 
 .ya-logo-top
 {
-    position: relative;
     display: block;
-    margin: auto;
-    top: -3px;
+    margin: -3px auto 0 auto;
 }
 
 .header
@@ -92,7 +91,6 @@ p
     top: 250px;
     font-size: 44px;
     width: 850px;
-    text-align: center;
     line-height: 48px;
     margin: auto;
 }
@@ -114,6 +112,7 @@ p
 .description-text
 {
     width: 450px;
+    text-align: left;
 }
 
 .people
@@ -129,37 +128,30 @@ p
     border-top: 3px solid #000;
 }
 
-.people > div,
-.people-2 > div
+.people label
 {
-    display: flex;
-    flex-direction: column;
-}
-
-.people label,
-.people-2 label
-{
-    position: relative;
-    width: 165px;
-    height: 166px;
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: auto;
 }
 
 .people-maks
 {
     background: url(people-sprite.png) no-repeat;
-    background-position: -1px 0;
+    background-position: 0 0;
 }
 
 .people-alex
 {
     background: url(people-sprite.png) no-repeat;
-    background-position: -181px 0;
+    background-position: -165px 0;
 }
 
 .people-georg
 {
     background: url(people-sprite.png) no-repeat;
-    background-position: -356px 0;
+    background-position: -330px 0;
 }
 
 .maks-name,
@@ -167,20 +159,13 @@ p
 .georg-name
 {
     font-weight: bold;
-    text-align: center;
-    position: relative;
-    left: -65px;
 }
 
 .maks-text,
 .georg-text,
 .alex-text
 {
-    text-align: center;
     width: 300px;
-    position: relative;
-    top: -17px;
-    left: -60px;
 }
 
 .path-1
@@ -196,7 +181,6 @@ p
     top: 90px;
     left: calc(50% - 400px);
     width: 280px;
-    text-align: center;
 }
 
 .path-2
@@ -208,7 +192,6 @@ p
 
 .path-2 p
 {
-    text-align: center;
     width: 300px;
 }
 
@@ -218,7 +201,6 @@ p
     top: 35px;
     left: calc(50% + 65px);
     width: 280px;
-    text-align: center;
 }
 
 .story-text-3
@@ -227,7 +209,6 @@ p
     top: 640px;
     left: calc(50% - 440px);
     width: 280px;
-    text-align: center;
 }
 
 .bottom
@@ -247,6 +228,7 @@ p
 .bottom-text
 {
     width: 450px;
+    text-align: left;
 }
 
 .logo-bot-wrapper
