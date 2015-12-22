@@ -117,7 +117,6 @@ p
 
 .people
 {
-    min-height: 370px;
     margin: 30px 10%;
     display: flex;
     justify-content: space-between;
@@ -172,7 +171,6 @@ p
 {
     height: 900px;
     background: url(s-1.png) no-repeat  center;
-    margin-top: -50px;
 }
 
 .story-text-1
