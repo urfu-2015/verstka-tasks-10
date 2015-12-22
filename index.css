@@ -17,7 +17,7 @@ p
 .container
 {
     background-color: white;
-    position: relative;
+    /*position: relative;*/
     width: 954px;
     max-width: 990px;
     margin: 0 auto;
@@ -36,21 +36,17 @@ footer
     width: 950px;
 }
 
-.yandex
-{
-    color: #000;
-    font-size: 30px;
-}
-
-.yandex:first-letter
-{
-    color: #f00;
-}
-
-.logo img
+#logo
 {
     margin: -6px auto;
     display: block;
+}
+
+.yandex
+{
+    position: relative;
+    display: block;
+    margin: -80px auto 0;
 }
 
 .logo p
@@ -62,15 +58,9 @@ footer
 
 .logo-atoms
 {
-    margin: 0 auto;
     position: absolute;
-    left: -19px;
+    right: -25px;
     z-index: 1;
-}
-
-.logo-atoms img
-{
-    width: 990px;
 }
 
 .header
@@ -88,7 +78,6 @@ footer
 .header-part-1
 {
     border-bottom: solid 2px #000;
-    position: relative;
     max-height: 552px;
 }
 
