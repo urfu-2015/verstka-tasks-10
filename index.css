@@ -5,40 +5,76 @@
     margin: 0 auto;
     height: auto;
     font-family: Arial, sans-serif;
+    border: 2px solid #000;
+    border-top: 0;
+}
+
+#user__one,
+#user__two,
+#user__three
+{
+    display: none;
+}
+
+.user__one:checked ~ .page
+{
+    background-color: rgb(255, 224, 93);
+}
+
+.user__two:checked ~ .page
+{
+    background-color: rgb(255, 130, 131);
+}
+
+.user__three:checked ~ .page
+{
+    background-color: rgb(114, 196, 246);
+}
+
+.user__one:checked ~ .page .user__one-text,
+.user__two:checked ~ .page .user__two-text,
+.user__three:checked ~ .page .user__three-text
+{
+    visibility: visible;
 }
 
 .header
 {
-    position: relative;
-    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 2px solid black;
+    background: url(img/bg.svg) no-repeat -18px 69px;
 }
-.header__bg{
-    position: absolute;
-    top: 70px;
-    left: -19px;
+
+.header__logo
+{
+    width: 138px;
 }
+
 .header__question
 {
-    margin-top: 369px;
-    border-bottom: 2px solid #000;
-    width: 100%;
-    height: 183px;
+    padding-top: 235px;
+    text-align: center;
+    height: 221px;
 }
 
 .header__question-text
 {
-    margin: 0 auto;
-    font-size: 42px;
-    text-align: center;
-    width: 700px;
+    font-size: 43px;
+    width: 710px;
 }
 
 .header__about
 {
+    width: 100%;
     display: flex;
     flex-direction: row;
     height: 392px;
-    border-bottom: 2px solid #000;
+    border: 2px solid #000;
+    border-left: 0;
+    border-right: 0;
 }
 
 .header__about-text
@@ -63,26 +99,48 @@
 
 .list-user
 {
-    height: 248px;
+    height: 266px;
     display: flex;
-    flex-direction: row;
-    margin: 79px 200px;
-    justify-content: center;
+    flex-direction: column;
+    margin: 70px 100px;
+    align-items: center;
 }
 
 .user__img
 {
+    width: 610px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-top: 9px;
 
+}
+
+.user__text
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+
+.user__one-text,
+.user__two-text,
+.user__three-text
+{
+    visibility: hidden;
 }
 
 .user__one-img
 {
+    padding: 3px;
     height: 140px;
     width: 140px;
-    float: left;
-    background: url(img/user.png) no-repeat 0 -140px;
+    background: url(img/user.png) no-repeat -1px -150px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+
 }
 
 .user__two
@@ -93,10 +151,12 @@
 
 .user__two-img
 {
+    padding: 3px;
     height: 140px;
     width: 140px;
-    float: left;
-    background: url(img/user.png) no-repeat;
+    background: url(img/user.png) no-repeat -1px -2px;
+    border: 2px solid transparent;
+    border-radius: 50%;
 
 }
 
@@ -108,16 +168,33 @@
 
 .user__three-img
 {
+    padding: 3px;
     height: 140px;
     width: 140px;
-    float: left;
-    background: url(img/user.png) no-repeat 0 -280px;
+    background: url(img/user.png) no-repeat -1px -299px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
 
+.user__one:hover .user__one-img,
+.user__two:hover .user__two-img,
+.user__three:hover .user__three-img
+{
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.user__name
+{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 4px;
 }
 
 .story
 {
-    background: transparent url("img/path.png") no-repeat scroll 96px 24px;
+    background: transparent url('img/path.png') no-repeat scroll 96px 24px;
     height: 2453px;
     position: relative;
 }
@@ -238,7 +315,7 @@
 
 .story__two-ipad
 {
-    left: 205px
+    left: 205px;
 }
 
 .story__three
@@ -281,3 +358,117 @@
     bottom: -45px;
     right: -20px;
 }
+
+.footer
+{
+    position: relative;
+    line-height: 24px;
+    text-align: left;
+}
+
+.footer__user
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 94px;
+    border-bottom: 2px solid black;
+    padding-bottom: 68px;
+}
+
+.footer__text
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__text-left
+{
+    padding-left: 98px;
+    padding-top: 53px;
+    width: 465px;
+}
+
+.footer__text-social
+{
+    margin-top: 23px;
+}
+
+.social
+{
+    display: inline-block;
+    vertical-align: top;
+    height: 24px;
+    width: 24px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAABRCAYAAACZtFU/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NjZBQ0EzNzI5NzBEMTFFNUIyRkI4ODcxN0Y5MUYwODAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NjZBQ0EzNzM5NzBEMTFFNUIyRkI4ODcxN0Y5MUYwODAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRDBGQ0Y3NTk2QzQxMUU1QjJGQjg4NzE3RjkxRjA4MCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRDBGQ0Y3Njk2QzQxMUU1QjJGQjg4NzE3RjkxRjA4MCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnzLUoYAAAVuSURBVHja7JvXSzNNFMYnGnvvqNgbNhDEhnohXvg351K8sKBeqFixN+y9t8/f8E1I8iZbkl2TDXtgcbNrZvPMqfPMWc/Pz49IRkkRSSpedeLz+WxV3cTEhOcvn5O0Gkt+U4x6ZlJSRHl5ucjLyxNpaWnC4/GI5+dnsbu761xgGRkZoq+vT+Tk5ARdv7m5cTaw5ubmf0DFIsPDwxHvMVnb29vi7e3NfmAlJSVBn29vb8Xr66t4enqKarzc3FzNe1VVVWJubk7c39/bCwyfUvLx8SFmZ2ct0977+7s80tPT5YGkpqaKlpYWsbCwYH/wUPL19WWpj5ydnYnV1VV5PjY25geXmZlpnynW1NQIr9crI6J/oN/PDQ0N8hxzPD09tVR7Chhj2wassbHxn5kDWGtrqzw/Pz+PGVhWVpb0qcLCQr/vYRVbW1t/k8fCidFZ1ZLS0lJ5BMrJyYmhwBE1MEIvplFcXCwTMvL9/S2vI3d3d7bkJlygrKxMzMzM6Ib9qIAtLS3Jv+Pj49IElR/Mz89bBuLw8NAfPDDJ7u5uf/Boamry33N0rYgJPj4++j8XFRUlTxGsouKfFcF2CVrp6OiQ5xUVFUHAiLqOBUaID1diUbYZCflep5giPoam4prHohWfz+euoF1qIBqZnJz0Vx6Jxk/GBOzz8zNhNeZxmWCn+pjLBLum6AJzgVmax36dUbOe07vvaizZgbW1tfl5lLiVVHZIfX29JG/YgIDQibYyMg0s1Kfs4jfa29tFXV2d2NzclHR3qABYFeCO87Hs7GzR09Mj9+Dy8/ODi1wNUI4JHhCzg4ODoqurS242JlVUREPV1dViZGREFBQUWO9jennMToGh2tjYMEShO4KlYpODIGJmByehgbFttLOzI/b3901vLCYkMEI5OYxcxmZHUiToy8tL6UeBmxBJAczIxrklwPSq9USp5t3q3gXmAvvjEsxlgh0mdjDBL5R3Idfuf4vleoufE2kh7LErQWf9f8TVMiwFxppJETFsMcXTf71WghodHZXNXdIeX17E1NRU3MBZZiI0SSpQ0h5/z7lm5cTRHmG0VTfuRTDd37Ta0mQWSWgMo5lFtRJS+dNLRYcr32d5YxswFoK03AWaopHFIb2PNHTSeBbu//nhMFWBTZ9orr+/X66s19bWJF0Xum6LCphq/wkcDF+anp6OaixYqIGBAbG8vCweHh6C7tfW1gaBChQYK9qRwrUgmQKGSUBBKzvHJNbX18XV1VXUmoaYARiaGRoakrzG0dGRJG6YrEC/DZXr62s5GaZ9DIdVUY23ITCJQKISk+jt7ZWLQwWOgGGGnzg4OJC0GppjbOhtDtIFEwdpGkm02uDD6pgGS2i1wKiGpsKxr1xTvcDKtPiuUVqOccO12pIP6QfWaufT6jJN0fqS6uMgGmnNHPSz6sEnaGhFuFDB5ELpa6Oi1R8cEVgkh7VaYKOi8VEmHR8zDQwNqPJI77UOZo43JVRiNjMpaJeQzY6KmSqFAKNlGZq/gIChhOgX7sFcgy4LjJxmhR9IK7reDooSJlHvbSdNYGzCqYfB9y0uLgbxfeQcIqIyCTTFd0yvc379knGMcokrKyu6RKpXr9yhMlAlC+A4wiVohOiolXe0hJ59EnxnZ6cM9+FEWYclPcG8I4bWAKdMMRQQmgIUO5BmBD8m2VNBENorKysj7n/xTDR1cXFhXRFMAz+ly97enhxYAeNH4IeYn1Y60PIVwJGgI/kYZnp8fCw3Jsy0ERouqagy2FFUBa+qMmIVJoqDCEw+Y7KwAEDjc7zvadlCkwExDa21l56EFrOx5iVLgFn55l7C0m9O5R11gRlNmlaIlZPoMsEusASR/wQYANs0hzewCmvpAAAAAElFTkSuQmCC') no-repeat;
+}
+
+.social-fb
+{
+    background-position: -1px -2px;
+}
+
+.social-vk
+{
+    background-position: -26px -2px;
+    margin-left: 2px;
+}
+
+.social-tw
+{
+    background-position: -26px -54px;
+    margin-left: 4px;
+}
+
+.social-yt
+{
+    margin-left: 4px;
+    background-position: -26px -28px;
+}
+
+.social-hb
+{
+    background-position: -2px -28px;
+    margin-left: 8px;
+}
+
+.social-in
+{
+    background-position: -2px -54px;
+    margin-left: 4px;
+}
+
+.footer__text-contact
+{
+
+    margin-top: 86px;
+    padding-bottom: 30px;
+}
+
+.footer__text-link
+{
+    margin-left: 13px;
+}
+
+.footer__text-copy
+{
+    margin-left: 76px;
+}
+
+.footer__text-yandex
+{
+    margin-left: 4px;
+}
+
+.footer__logo-right
+{
+    position: relative;
+}
+
+.footer__logo-right-img
+{
+    position: absolute;
+    top: 84px;
+    right: -197px;
+}
+

@@ -6,33 +6,55 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+<input type="radio" id="user__one" class="user__one" name="user" checked>
+<input type="radio" id="user__two" class="user__two" name="user">
+<input type="radio" id="user__three" class="user__three" name="user">
+
 <div class="page">
     <header class="header">
-        <img class="header__bg" src="img/bg.svg">
+
+        <img class="header__logo" src="img/logo-head.png">
         <section class="header__question">
             <p class="header__question-text">&#8211; А что если интернет подстроится под меня?</p>
         </section>
+
         <section class="header__about">
             <div class="header__about-text">
                 <p class="story--padding">
-                    Интернет сегодня — это не только информация и техноло-<wbr>гии, это люди: их желания, предпочтения,
+                    Интернет сегодня — это не только информация и техноло-
+                    <wbr>
+                    гии, это люди: их желания, предпочтения,
                     задачи.
-                    Люди —<wbr>вот атомы, из которых на самом деле состоит цифровая<wbr>материя; и эти люди очень, очень разные.
-                    Сегодня поиск<wbr>умеет подстраиваться, помогая людям быстрее приходить к<wbr>тем решениям, которые им
+                    Люди —
+                    <wbr>
+                    вот атомы, из которых на самом деле состоит цифровая
+                    <wbr>
+                    материя; и эти люди очень, очень разные.
+                    Сегодня поиск
+                    <wbr>
+                    умеет подстраиваться, помогая людям быстрее приходить к
+                    <wbr>
+                    тем решениям, которые им
                     нужны.
                 </p>
 
                 <p class="story--padding">
-                    Мы представляем Атом: совокупность инструментов, при-<wbr>званных научить интернет подстраиваться под
-                    разных<wbr> людей, которые им нужны.
+                    Мы представляем Атом: совокупность инструментов, при-
+                    <wbr>
+                    званных научить интернет подстраиваться под
+                    разных
+                    <wbr>
+                    людей, которые им нужны.
                 </p>
             </div>
             <div class="header__about-video">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 82" width="138" height="80">
                     <g fill="#fff" stroke="#000" fill-rule="evenodd" stroke-width="2">
                         <rect data-name="Rounded Rectangle 47" x="1" y="1" width="138" height="80" rx="4"
-                              fill="transparent"/>
-                        <path d="m59.54 56.663c0 2.966 3.4 2.688 4.985 1.5l20.823-15.01a2.531 2.531 0 0 0 0 -4.29l-20.822-15.02c-1.584-1.185-4.985-1.5-4.985 1.5v31.31z" data-name="Rounded Rectangle 45"></path>
+                        fill="transparent"/>
+                        <path d="m59.54 56.663c0 2.966 3.4 2.688 4.985 1.5l20.823-15.01a2.531 2.531 0 0 0 0
+                        -4.29l-20.822-15.02c-1.584-1.185-4.985-1.5-4.985 1.5v31.31z"
+                        data-name="Rounded Rectangle 45"></path>
                     </g>
                 </svg>
                 <p class="header__about-title">Весь сайт в одном видео</p>
@@ -41,38 +63,49 @@
         <section class="list-user">
 
             <div class="user__img">
-                <div class="user__one-img"></div>
-                <div class="user__two-img"></div>
-                <div class="user__three-img"></div>
+                <label for="user__one" class="user__one">
+                    <div class="user__one-img"></div>
+                    <div class="user__name">Максим</div>
+                </label>
+                <label for="user__two" class="user__two">
+                    <div class="user__two-img"></div>
+                    <div class="user__name">Алексей Быков</div>
+                </label>
+                <label for="user__three" class="user__three">
+                    <div class="user__three-img"></div>
+                    <div class="user__name">Георгий И. Дауге</div>
+                </label>
+
             </div>
-            <!-- -->
-            <!--<div>           Максим-->
-
-            <!--Предпочитает путешествовать самостоятельно и налегке. Уверен, что только так можно проникнуться-->
-            <!--культурой-->
-            <!--страны.-->
-            <!--</div>-->
-            <!--<div class="user__two">-->
-            <!--Алексей Быков-->
-
-            <!--В отпуск ездит вместе с женой и дочкой. Считает, что отдыхать лучше всего в отелях на побережье.-->
-            <!--</div>-->
-            <!--<div class="user__three">-->
-            <!--Георгий И. Дауге-->
-
-            <!--Очень дорожит редкими отпусками и превыше всего ценит комфорт и качество обслуживания.-->
-            <!--</div>-->
+            <div class="user__text">
+                <div class="user__one-text">
+                    Предпочитает путешествовать самостоятельно и налегке.
+                    Уверен, что только так можно проникнуться
+                    культурой
+                    страны.
+                </div>
+                <div class="user__two-text">
+                    В отпуск ездит вместе с женой и дочкой.
+                    Считает, что отдыхать лучше всего в отелях на побережье.
+                </div>
+                <div class="user__three-text">
+                    Очень дорожит редкими отпусками и
+                    превыше всего ценит комфорт и качество обслуживания.
+                </div>
+            </div>
         </section>
-
-
     </header>
     <main class="story">
         <section class="story__one">
 
-            <p class="story--padding">Юра сразу покупает тур: в его ситуа-<wbr>ции так очевидно проще. Основные вводные - приемлемого качества.
+            <p class="story--padding">Юра сразу покупает тур: в его ситуа-
+                <wbr>
+                ции так очевидно проще. Основные вводные - приемлемого качества.
             </p>
 
-            <p class="story--padding">Отель центре тайской жизни: чтобы и еда, и качественный пляж, достопри-<wbr>мечательности, и рестораны
+            <p class="story--padding">Отель центре тайской жизни: чтобы и еда, и качественный пляж, достопри-
+                <wbr>
+                мечательности, и рестораны
             </p>
         </section>
         <div class="story__one-img">
@@ -85,10 +118,14 @@
         </div>
         <section class="story__two">
             <p class="story--padding">
-                Юра носит линзы, и у него как раз за-<wbr>канчивается запас - нужно купить новые.
+                Юра носит линзы, и у него как раз за-
+                <wbr>
+                канчивается запас - нужно купить новые.
             </p>
             <p class="story--padding">
-                Отель центре тайской жизни: чтобы и еда, и качественный пляж, достопри-<wbr>мечательности, и рестораны.
+                Отель центре тайской жизни: чтобы и еда, и качественный пляж, достопри-
+                <wbr>
+                мечательности, и рестораны.
             </p>
         </section>
         <div class="story__two-img">
@@ -103,7 +140,6 @@
                 Что Юра точно не хочет упустить, так это возможность попробовать местную еду.
                 Каждый вечер они с женой -
             </p>
-            <!--иногда с детьми, иногда вдвоем - отправляют в новый местный ресторан.-->
 
             <p class="story--padding">
                 Каждый вечер они с женой - иногда с детьми, иногда вдвоем - отправляют в новый
@@ -117,16 +153,61 @@
         </div>
     </main>
 
-    <!--<footer>-->
-    <!--Интернет сегодня — это не только информация и технологии, это люди: их желания, предпочтения, задачи. Люди — вот-->
-    <!--атомы, из которых на самом деле состоит цифровая материя; и эти люди очень, очень разные.-->
+    <footer class="footer">
+        <section class="footer__user">
+            <div class="user__img">
+                <label for="user__one" class="user__one">
+                    <div class="user__one-img"></div>
+                    <div class="user__name">Максим</div>
+                </label>
+                <label for="user__two" class="user__two">
+                    <div class="user__two-img"></div>
+                    <div class="user__name">Алексей Быков</div>
+                </label>
+                <label for="user__three" class="user__three">
+                    <div class="user__three-img"></div>
+                    <div class="user__name">Георгий И. Дауге</div>
+                </label>
+            </div>
+        </section>
+        <section class="footer__text">
+            <div class="footer__text-left">
+                <p class="story--padding">
+                    Интернет сегодня — это не только информация и техноло-
+                    <wbr>
+                    гии, это люди: их желания, предпочтения, задачи.
+                    Люди —
+                    <wbr>
+                    вот атомы, из которых на самом деле состоит цифровая материя;
+                    и эти люди очень, очень разные.
+                </p>
 
-    <!--Теперь посмотрите, как планировали путешествие в Таиланд Алексей Быков и Георгий И. Дауге.-->
+                <p class="story--padding">
+                    Теперь посмотрите, как планировали путешествие в Таи-
+                    <wbr>
+                    ланд Алексей Быков и Георгий И. Дауге.
+                </p>
 
-    <!--Помощь Обратная связь-->
-
-    <!--© 2013 ООО «Яндекс»-->
-    <!--</footer>-->
+                <div class="footer__text-social">
+                    <a href="#"><span class="social social-fb"></span></a>
+                    <a href="#"><span class="social social-vk"></span></a>
+                    <a href="#"><span class="social social-tw"></span></a>
+                    <a href="#"><span class="social social-yt"></span></a>
+                    <a href="#"><span class="social social-hb"></span></a>
+                    <a href="#"><span class="social social-in"></span></a>
+                </div>
+                <div class="footer__text-contact">
+                    <span class="footer__text-help">Помощь</span>
+                    <span class="footer__text-link">Обратная связь</span>
+                    <span class="footer__text-copy">© 2013</span>
+                    <span class="footer__text-yandex">ООО «Яндекс»</span>
+                </div>
+            </div>
+            <div class="footer__logo-right">
+                <img src="img/logo_footer.png" class="footer__logo-right-img">
+            </div>
+        </section>
+    </footer>
 </div>
 </body>
 </html>
